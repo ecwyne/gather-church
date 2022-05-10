@@ -70,7 +70,7 @@ const Home: NextPage = () => {
                     id="worship"
                     className="flex gap-10 mt-10 min-h-[30em] scroll-my-36"
                 >
-                    <div className="basis-2/5 flex flex-col items-center gap-8 text-gray-700 font-serif justify-center bg-gray-200 p-5 rounded-md shadow-md">
+                    <div className="basis-2/5 flex flex-col items-center gap-8 text-gray-700 font-serif justify-center bg-gray-200 p-5 rounded-lg shadow-md">
                         <div className="text-3xl font-extralight tracking-widest">
                             WORSHIP
                         </div>
@@ -82,12 +82,13 @@ const Home: NextPage = () => {
                             study God&apos;s Word - the Bible.
                         </div>
                     </div>
-                    <div className="relative basis-3/5">
+                    <div className="relative basis-3/5 shadow-md">
                         <Image
                             src="/gather_worship.webp"
                             alt=""
                             layout="fill"
                             objectFit="cover"
+                            className="rounded-md"
                         />
                     </div>
                 </section>
@@ -95,15 +96,16 @@ const Home: NextPage = () => {
                     id="what-to-expect"
                     className="flex gap-10 mt-10 scroll-m-36"
                 >
-                    <div className="basis-1/2 relative">
+                    <div className="basis-1/2 relative shadow-md rounded-lg">
                         <Image
                             src="/gather_potluck.webp"
                             alt=""
                             layout="fill"
                             objectFit="cover"
+                            className="rounded-lg"
                         />
                     </div>
-                    <div className="basis-1/2 flex flex-col items-center gap-8 text-gray-700 font-serif justify-center bg-gray-200 p-5 rounded-md shadow-md">
+                    <div className="basis-1/2 flex flex-col items-center gap-8 text-gray-700 font-serif justify-center bg-gray-200 p-5 rounded-lg shadow-md">
                         <div className="text-3xl font-extralight tracking-widest">
                             WHAT TO EXPECT
                         </div>
@@ -125,17 +127,17 @@ const Home: NextPage = () => {
                 </section>
                 <section
                     id="about-us"
-                    className="relative mt-10 w-full min-h-[40em] scroll-m-36"
+                    className="relative mt-10 w-full min-h-[40em] scroll-m-36 rounded-lg"
                 >
                     <Image
                         src="/gather_sermon.webp"
                         alt=""
                         layout="fill"
                         objectFit="cover"
-                        className="filter brightness-50 blur-sm"
+                        className="filter brightness-50 blur-sm rounded-lg"
                     />
 
-                    <div className="absolute inset-0 flex flex-col justify-center items-center  text-gray-200 font-serif text-center">
+                    <div className="absolute inset-0 flex flex-col justify-center items-center  text-gray-200 font-serif text-center rounded-lg">
                         <div className="text-6xl">About Us</div>
                         <div className="mt-3 text-3xl w-3/4">
                             We are a new church in the Redding area, which
@@ -154,8 +156,11 @@ const Home: NextPage = () => {
                         </div>
                     </div>
                 </section>
-                <section id="where" className="flex gap-10 mt-10 scroll-m-36">
-                    <div className="basis-2/5 flex flex-col items-center gap-8 text-gray-700 font-serif justify-center bg-gray-200 p-5 rounded-md shadow-md">
+                <section
+                    id="where"
+                    className="flex gap-10 mt-10 scroll-m-36 rounded"
+                >
+                    <div className="basis-2/5 flex flex-col items-center gap-8 text-gray-700 font-serif justify-center bg-gray-200 p-5 rounded-lg shadow-md">
                         <div className="text-3xl font-extralight tracking-widest">
                             WHERE
                         </div>
@@ -166,12 +171,13 @@ const Home: NextPage = () => {
                             Road.
                         </div>
                     </div>
-                    <div className="relative basis-3/5 min-h-[25em]">
+                    <div className="relative basis-3/5 min-h-[25em] shadow-md">
                         <Image
                             src="/gather_sermon_2.webp"
                             alt=""
                             layout="fill"
                             objectFit="cover"
+                            className="rounded-lg"
                         />
                     </div>
                 </section>
