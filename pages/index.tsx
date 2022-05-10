@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Home: NextPage = () => {
     return (
         <main className="bg-slate-200 scroll-smooth">
-            <header className="flex p-2 bg-white px-40 sticky top-0 z-10">
+            <header className="flex p-2 bg-white md:px-40 sticky top-0 z-10">
                 <div className="relative h-14 w-14 hidden md:block">
                     <Image
                         src="/gather_icon.webp"
@@ -13,7 +13,7 @@ const Home: NextPage = () => {
                         objectFit="scale-down"
                     />
                 </div>
-                <nav className="flex flex-grow space-x-10 items-center justify-center py-3">
+                <nav className="flex flex-grow space-x-4 md:space-x-10 items-center justify-center py-3">
                     <a
                         className="hover:text-yellow-600 transition-all ease-in-out duration-500"
                         href="#worship"
@@ -53,7 +53,7 @@ const Home: NextPage = () => {
                     alt="hero image"
                     layout="fill"
                     objectFit="cover"
-                    className="filter brightness-75"
+                    className="filter brightness-75 object-center"
                 />
                 <div className="absolute inset-0 bg-gray-700 bg-opacity-70">
                     <Image
