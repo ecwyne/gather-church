@@ -13,7 +13,7 @@ const Home: NextPage = () => {
                         objectFit="scale-down"
                     />
                 </div>
-                <nav className="flex flex-grow space-x-4 md:space-x-10 items-center justify-center py-3">
+                <nav className="flex flex-grow space-x-4 md:space-x-10 items-center justify-center py-3 font-extralight">
                     <a
                         className="hover:text-yellow-600 transition-all ease-in-out duration-500"
                         href="#worship"
@@ -71,7 +71,10 @@ const Home: NextPage = () => {
                     className="flex gap-10 mt-10 min-h-[30em] scroll-my-36"
                 >
                     <div className="basis-2/5 flex flex-col items-center gap-8 text-gray-700 font-serif justify-center bg-gray-200 p-5 rounded-md shadow-md">
-                        <div className="text-3xl">WORSHIP</div>
+                        <div className="text-3xl font-extralight tracking-widest">
+                            WORSHIP
+                        </div>
+                        <hr className="h-[0.15rem] w-1/4 bg-gray-400" />
                         <div className="text-xl w-3/4 text-center">
                             Come ready to encounter the Lord through His people.
                             Be prepared to not just sing, but to be used by the
@@ -101,7 +104,10 @@ const Home: NextPage = () => {
                         />
                     </div>
                     <div className="basis-1/2 flex flex-col items-center gap-8 text-gray-700 font-serif justify-center bg-gray-200 p-5 rounded-md shadow-md">
-                        <div className="text-3xl">WHAT TO EXPECT</div>
+                        <div className="text-3xl font-extralight tracking-widest">
+                            WHAT TO EXPECT
+                        </div>
+                        <hr className="h-[0.15rem] w-1/4 bg-gray-400" />
                         <div className="text-xl text-center w-2/3">
                             We&apos;re a casual bunch, so dress comfortable. Be
                             ready to talk to others - there’s lots of
@@ -150,7 +156,10 @@ const Home: NextPage = () => {
                 </section>
                 <section id="where" className="flex gap-10 mt-10 scroll-m-36">
                     <div className="basis-2/5 flex flex-col items-center gap-8 text-gray-700 font-serif justify-center bg-gray-200 p-5 rounded-md shadow-md">
-                        <div className="text-3xl">WHERE</div>
+                        <div className="text-3xl font-extralight tracking-widest">
+                            WHERE
+                        </div>
+                        <hr className="h-[0.15rem] w-1/4 bg-gray-400" />
                         <div className="text-2xl w-3/4 text-center leading-10">
                             We meet at 20276 Skypark Drive, in Redding, CA.
                             We&apos;re right next to Burrito Bandito off Airport
