@@ -1,10 +1,12 @@
 import type { NextPage } from 'next';
 import Image from 'next/image';
+import Nav from '../components/Nav';
 
 const Home: NextPage = () => {
     return (
         <main className="bg-slate-200 scroll-smooth">
-            <header className="flex p-2 bg-white md:px-40 sticky top-0 z-10">
+            <Nav />
+            {/* <header className="flex p-2 bg-white md:px-40 sticky top-0 z-10">
                 <div className="relative h-14 w-14 hidden md:block">
                     <Image
                         src="/gather_icon.webp"
@@ -46,7 +48,7 @@ const Home: NextPage = () => {
                     </a>
                 </nav>
                 <div className="relative h-14 w-14 hidden md:block"></div>
-            </header>
+            </header> */}
             <section className="w-full relative h-full min-h-[45rem]">
                 <Image
                     src="/gather_hero.webp"
