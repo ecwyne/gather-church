@@ -6,50 +6,7 @@ const Home: NextPage = () => {
     return (
         <main className="bg-slate-200 scroll-smooth">
             <Nav />
-            {/* <header className="flex p-2 bg-white md:px-40 sticky top-0 z-10">
-                <div className="relative h-14 w-14 hidden md:block">
-                    <Image
-                        src="/gather_icon.webp"
-                        alt="Gather Church Logo"
-                        layout="fill"
-                        objectFit="scale-down"
-                    />
-                </div>
-                <nav className="flex flex-grow space-x-4 md:space-x-10 items-center justify-center py-3 font-extralight">
-                    <a
-                        className="hover:text-yellow-600 transition-all ease-in-out duration-500"
-                        href="#worship"
-                    >
-                        Worship
-                    </a>
-                    <a
-                        className="hover:text-yellow-600 transition-all ease-in-out duration-500"
-                        href="#what-to-expect"
-                    >
-                        What to Expect
-                    </a>
-                    <a
-                        className="hover:text-yellow-600 transition-all ease-in-out duration-500"
-                        href="#about-us"
-                    >
-                        About Us
-                    </a>
-                    <a
-                        className="hover:text-yellow-600 transition-all ease-in-out duration-500"
-                        href="#where"
-                    >
-                        Where
-                    </a>
-                    <a
-                        className="hover:text-yellow-600 transition-all ease-in-out duration-500"
-                        href="#youth"
-                    >
-                        Youth
-                    </a>
-                </nav>
-                <div className="relative h-14 w-14 hidden md:block"></div>
-            </header> */}
-            <section className="w-full relative h-full min-h-[45rem]">
+            <section className="w-full relative h-full min-h-[20rem] md:min-h-[45rem]">
                 <Image
                     src="/gather_hero.webp"
                     alt="hero image"
@@ -67,7 +24,7 @@ const Home: NextPage = () => {
                     />
                 </div>
             </section>
-            <div className="px-20">
+            <div className="px-2 md:px-20">
                 <section
                     id="worship"
                     className="flex gap-10 mt-10 min-h-[30em] scroll-my-36"
