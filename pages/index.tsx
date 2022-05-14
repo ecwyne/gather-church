@@ -27,7 +27,7 @@ const Home: NextPage = () => {
             <div className="grid grid-cols-2 gap-10 px-2 md:px-10 lg:px-20 mt-10">
                 <div
                     id="worship"
-                    className="order-1 col-span-2 md:col-span-1 flex flex-col items-center gap-8 text-gray-700 font-serif justify-center bg-gray-200 p-5 rounded-lg shadow-md"
+                    className="scroll-m-36 order-1 col-span-2 md:col-span-1 flex flex-col items-center gap-8 text-gray-700 font-serif justify-center bg-gray-200 p-5 rounded-lg shadow-md"
                 >
                     <div className="text-3xl font-extralight tracking-widest">
                         WORSHIP
@@ -59,7 +59,10 @@ const Home: NextPage = () => {
                         className="rounded-lg"
                     />
                 </div>
-                <div className="order-3 md:order-4 col-span-2 md:col-span-1 flex flex-col items-center gap-8 text-gray-700 font-serif justify-center bg-gray-200 p-5 rounded-lg shadow-md">
+                <div
+                    id="what-to-expect"
+                    className="scroll-m-36 order-3 md:order-4 col-span-2 md:col-span-1 flex flex-col items-center gap-8 text-gray-700 font-serif justify-center bg-gray-200 p-5 rounded-lg shadow-md"
+                >
                     <div className="text-lg md:text-2xl font-extralight tracking-widest">
                         WHAT TO EXPECT
                     </div>
@@ -80,7 +83,7 @@ const Home: NextPage = () => {
 
                 <section
                     id="about-us"
-                    className="order-5 col-span-2 relative mt-10 min-h-[30em] md:min-h-[40em] scroll-m-36 rounded-lg"
+                    className="order-5 col-span-2 relative min-h-[30em] md:min-h-[40em] scroll-m-36 rounded-lg"
                 >
                     <Image
                         src="/gather_sermon.webp"
@@ -110,7 +113,10 @@ const Home: NextPage = () => {
                     </div>
                 </section>
 
-                <div className="order-6 col-span-2 md:col-span-1 flex flex-col items-center gap-8 text-gray-700 font-serif justify-center bg-gray-200 p-5 rounded-lg shadow-md">
+                <div
+                    id="where"
+                    className="scroll-m-36 order-6 col-span-2 md:col-span-1 flex flex-col items-center gap-8 text-gray-700 font-serif justify-center bg-gray-200 p-5 rounded-lg shadow-md"
+                >
                     <div className="text-3xl font-extralight tracking-widest">
                         WHERE
                     </div>
@@ -133,7 +139,7 @@ const Home: NextPage = () => {
 
                 <section
                     id="youth"
-                    className="order-8 col-span-2 relative mt-10 min-h-[20rem] md:min-h-[40rem] scroll-m-36"
+                    className="order-8 col-span-2 relative min-h-[20rem] md:min-h-[40rem] scroll-m-36"
                 >
                     <Image
                         src="/gather_mountains.webp"
