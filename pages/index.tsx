@@ -107,8 +107,17 @@ const Home: NextPage = () => {
                             average and is called to encourage and build up the
                             church through their gifts and abilities as well as
                             pastor their circles of influence. Our Mission is
-                            simple: Gather as family, Grow as Disciples, Go to
-                            our circles.
+                            simple:{' '}
+                            <span className="underline font-semibold">
+                                Gather
+                            </span>{' '}
+                            as family,{' '}
+                            <span className="underline font-semibold">
+                                Grow
+                            </span>{' '}
+                            as Disciples,{' '}
+                            <span className="underline font-semibold">Go</span>{' '}
+                            to our circles.
                         </div>
                     </div>
                 </section>
